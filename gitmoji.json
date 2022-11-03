@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "commitMessageAction": "Update",
+  "commitMessagePrefix": "⬆️",
+  "packageRules": [
+    {
+      "matchUpdateTypes": "pin",
+      "commitMessagePrefix": "📌"
+    },
+    {
+      "matchUpdateTypes": "rollback",
+      "commitMessagePrefix": "⏪️"
+    }
+  ]
+}

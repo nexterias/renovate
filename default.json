@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":separateMultipleMajorReleases",
+    "github>NEXTERIAS/renovate:schedule",
+    "github>NEXTERIAS/renovate:automergePin",
+    "github>NEXTERIAS/renovate:automergeTypes",
+    "github>NEXTERIAS/renovate:groupLinter"
+  ]
+}

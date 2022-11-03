@@ -1,0 +1,10 @@
+{
+  "name": "renovate",
+  "scripts": {
+    "validator": "zx ./scripts/config-validate.mjs"
+  },
+  "devDependencies": {
+    "renovate": "^34.13.2",
+    "zx": "^7.1.1"
+  }
+}
