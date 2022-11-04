@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "labels": ["Type: Dependencies"],
+  "patch": {
+    "addLabels": ["Semver: Patch"]
+  },
+  "minor": {
+    "addLabels": ["Semver: Minor"]
+  },
+  "major": {
+    "addLabels": ["Semver: Major"]
+  }
+}
