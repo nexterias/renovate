@@ -4,6 +4,6 @@
     ":timezone(Asia/Tokyo)"
   ],
   "schedule": [
-    "after 17:00 before 00:00 every weekday"
+    "after 09:00 before 23:00 every weekday"
   ]
 }
