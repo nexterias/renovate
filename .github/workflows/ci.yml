@@ -1,12 +1,12 @@
-name: Renovate
+name: Tests
 
 on:
   push:
   pull_request:
 
 jobs:
-  validate:
-    name: Validate
+  test:
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
@@ -23,3 +23,6 @@ jobs:
 
       - name: Run validator
         run: npm run validator
+
+      - name: Run formatter
+        run: npm run format:check
