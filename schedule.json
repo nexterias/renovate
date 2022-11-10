@@ -1,9 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    ":timezone(Asia/Tokyo)"
-  ],
-  "schedule": [
-    "after 09:00 before 23:00 every weekday"
-  ]
+  "extends": [":timezone(Asia/Tokyo)"],
+  "schedule": ["after 09:00 before 23:00 every weekday"]
 }
