@@ -2,11 +2,15 @@
   "name": "renovate",
   "scripts": {
     "prepare": "is-ci || husky install",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
     "validator": "zx ./scripts/config-validate.mjs"
   },
   "devDependencies": {
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
     "renovate": "^34.13.2",
     "zx": "^7.1.1"
   }
