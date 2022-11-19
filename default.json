@@ -2,7 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    ":separateMultipleMajorReleases",
     "local>NEXTERIAS/renovate:labels",
     "local>NEXTERIAS/renovate:schedule",
     "local>NEXTERIAS/renovate:automergePin",
