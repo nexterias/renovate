@@ -6,6 +6,10 @@
     "before 23:00 every weekday",
     "every weekday"
   ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["Type: Security"]
+  },
   "labels": ["Type: Dependencies"],
   "packageRules": [
     {
@@ -25,8 +29,10 @@
     "rangeStrategy": "bump",
     "extends": [
       ":automergePatch",
+      ":automergePr",
       ":separateMultipleMajorReleases",
       ":separatePatchReleases",
+      ":automergeRequireAllStatusChecks",
       "npm:unpublishSafe",
       "helpers:disableTypesNodeMajor",
       "packages:linters"
