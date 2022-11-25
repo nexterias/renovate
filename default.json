@@ -22,6 +22,7 @@
     }
   ],
   "npm": {
+    "rangeStrategy": "bump",
     "extends": [
       ":automergePatch",
       ":separateMultipleMajorReleases",
