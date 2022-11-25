@@ -6,6 +6,7 @@
     "before 23:00 every weekday",
     "every weekday"
   ],
+  "automergeStrategy": "squash",
   "vulnerabilityAlerts": {
     "enabled": true,
     "labels": ["Type: Security"]
