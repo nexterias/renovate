@@ -1,4 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>NEXTERIAS/renovate", ":semanticCommits"]
+  "extends": ["local>NEXTERIAS/renovate", ":semanticCommits"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["renovate"],
+      "extends": [":automergeMinor"]
+    }
+  ]
 }
