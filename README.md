@@ -4,6 +4,6 @@
 
 ```json
 {
-  "extends": ["github>NEXTERIAS/renovate"]
+  "extends": ["github>nexterias/renovate"]
 }
 ```
