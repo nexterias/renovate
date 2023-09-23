@@ -1,6 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":timezone(Asia/Tokyo)", ":prImmediately"],
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prImmediately",
+    ":disableRateLimiting"
+  ],
   "schedule": [
     "after 09:00 every weekday",
     "before 23:00 every weekday",
