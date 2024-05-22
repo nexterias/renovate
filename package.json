@@ -1,7 +1,7 @@
 {
   "name": "renovate",
   "scripts": {
-    "prepare": "is-ci || husky install",
+    "prepare": "is-ci || husky",
     "format": "prettier -w .",
     "format:check": "prettier -c .",
     "validator": "zx ./scripts/config-validate.mjs"
