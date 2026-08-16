@@ -7,11 +7,11 @@
     "validator": "zx ./scripts/config-validate.mjs"
   },
   "devDependencies": {
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0",
-    "lint-staged": "^17.3.0",
-    "prettier": "^3.9.6",
-    "renovate": "^44.0.0",
-    "zx": "^8.3.2"
+    "husky": "9.1.7",
+    "is-ci": "4.1.0",
+    "lint-staged": "17.3.0",
+    "prettier": "3.9.6",
+    "renovate": "44.30.4",
+    "zx": "8.8.5"
   }
 }
