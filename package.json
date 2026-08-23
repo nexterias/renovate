@@ -11,7 +11,7 @@
     "is-ci": "4.1.0",
     "lint-staged": "17.3.0",
     "prettier": "3.9.6",
-    "renovate": "44.32.6",
+    "renovate": "44.35.3",
     "zx": "8.8.5"
   }
 }
