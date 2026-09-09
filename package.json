@@ -9,7 +9,7 @@
   "devDependencies": {
     "husky": "9.1.7",
     "is-ci": "4.1.0",
-    "lint-staged": "17.3.0",
+    "lint-staged": "17.5.0",
     "prettier": "3.9.6",
     "renovate": "44.65.5",
     "zx": "8.8.5"
