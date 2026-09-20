@@ -10,7 +10,7 @@
     "husky": "9.1.7",
     "is-ci": "4.1.0",
     "lint-staged": "17.3.0",
-    "prettier": "3.9.6",
+    "prettier": "3.9.7",
     "renovate": "44.90.2",
     "zx": "8.8.5"
   }
